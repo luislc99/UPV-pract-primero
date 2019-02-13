@@ -1,0 +1,38 @@
+* W:\TCO\pract_7\F_2.stl written on Tue May 08 08:58:50 2018
+* by Stimulus Editor -- Evaluation Version 9.1
+;!Stimulus Get
+;! C Digital B Digital A Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 4us
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS A STIM (1, 1) ;! CLOCK 4MEGHz 0.5 0 0
++   +0s 0
++   +125ns 1
++   Repeat Forever
++      +125ns 0
++      +125ns 1
++   EndRepeat
+.STIMULUS B STIM (1, 1) ;! CLOCKP 500ns 250ns 0 0
++   +0s 0
++   +250ns 1
++   Repeat Forever
++      +250ns 0
++      +250ns 1
++   EndRepeat
+.STIMULUS C STIM (1, 1) ;! CLOCK 1MEGHz 0.5 0 0
++   +0s 0
++   +500ns 1
++   Repeat Forever
++      +500ns 0
++      +500ns 1
++   EndRepeat
+.STIMULUS C STIM (1, 1)
++   +0s Z
+.STIMULUS B STIM (1, 1)
++   +0s Z
+.STIMULUS A STIM (1, 1)
++   +0s Z

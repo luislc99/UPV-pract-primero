@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="yes" ?>
+<grafo>
+<tipoGrafo> "1" </tipoGrafo>
+<nodos><nodo>
+<nombre> "Alicant" </nombre>
+<posicion> (271,54) </posicion>
+</nodo>
+<nodo>
+<nombre> "Torrevieja" </nombre>
+<posicion> (276,192) </posicion>
+</nodo>
+<nodo>
+<nombre> "Elx" </nombre>
+<posicion> (282,280) </posicion>
+</nodo>
+<nodo>
+<nombre> "València" </nombre>
+<posicion> (599,186) </posicion>
+</nodo>
+<nodo>
+<nombre> "Gandia" </nombre>
+<posicion> (436,109) </posicion>
+</nodo>
+<nodo>
+<nombre> "Xàtiva" </nombre>
+<posicion> (445,306) </posicion>
+</nodo>
+<nodo>
+<nombre> "Tavernes" </nombre>
+<posicion> (376,189) </posicion>
+</nodo>
+<nodo>
+<nombre> "Font artificial" </nombre>
+<posicion> (85,206) </posicion>
+</nodo>
+</nodos>
+<aristas><arista>
+<nodo1> "0" </nodo1>
+<nodo2> "6" </nodo2>
+<peso> "3.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "2" </nodo1>
+<nodo2> "5" </nodo2>
+<peso> "3.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "2" </nodo1>
+<nodo2> "6" </nodo2>
+<peso> "2.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "4" </nodo2>
+<peso> "2.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "1" </nodo1>
+<nodo2> "5" </nodo2>
+<peso> "4.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "6" </nodo2>
+<peso> "4.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "4" </nodo1>
+<nodo2> "3" </nodo2>
+<peso> "3.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "5" </nodo1>
+<nodo2> "3" </nodo2>
+<peso> "3.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "6" </nodo1>
+<nodo2> "4" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "6" </nodo1>
+<nodo2> "3" </nodo2>
+<peso> "5.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "0" </nodo2>
+<peso> "1.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "2" </nodo2>
+<peso> "6.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+<arista>
+<nodo1> "7" </nodo1>
+<nodo2> "1" </nodo2>
+<peso> "2.0" </peso>
+<tipo> "1" </tipo>
+</arista>
+</aristas> 
+ </grafo>

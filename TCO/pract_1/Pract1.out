@@ -1,0 +1,145 @@
+
+**** 02/13/18 09:23:52 *********** Evaluation PSpice (Nov 1999) **************
+
+ * W:\TCO\pract_1\Pract1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Feb 13 09:23:52 2018
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Pract1.net"
+
+**** INCLUDING Pract1.net ****
+* Schematics Netlist *
+
+
+
+V_V1         $N_0001 0 15
+R_R1         $N_0001 $N_0002  100  
+R_R3         $N_0002 $N_0003  100  
+R_R2         $N_0002 $N_0003  220  
+R_R4         0 $N_0004  220  
+X_U2         $N_0003 $N_0004 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+
+**** RESUMING Pract1.cir ****
+.INC "Pract1.als"
+
+
+
+**** INCLUDING Pract1.als ****
+* Schematics Aliases *
+
+.ALIASES
+V_V1            V1(+=$N_0001 -=0 )
+R_R1            R1(1=$N_0001 2=$N_0002 )
+R_R3            R3(1=$N_0002 2=$N_0003 )
+R_R2            R2(1=$N_0002 2=$N_0003 )
+R_R4            R4(1=0 2=$N_0004 )
+X_U2            U2(1=$N_0003 2=$N_0004 )
+.ENDALIASES
+
+
+**** RESUMING Pract1.cir ****
+.probe
+
+
+.END
+
+**** 02/13/18 09:23:52 *********** Evaluation PSpice (Nov 1999) **************
+
+ * W:\TCO\pract_1\Pract1.sch
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.Smod       
+         RON     .01         
+        ROFF    1.000000E+06 
+         VON    1            
+        VOFF    0            
+
+
+**** 02/13/18 09:23:52 *********** Evaluation PSpice (Nov 1999) **************
+
+ * W:\TCO\pract_1\Pract1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(X_U2.3)    0.0000 ($N_0001)   15.0000                   ($N_0002)   14.9990    
+
+($N_0003)   14.9970                   ($N_0004)     .0033                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.499E-05
+    X_U2.V1      0.000E+00
+
+    TOTAL POWER DISSIPATION   2.25E-04  WATTS
+
+
+**** 02/13/18 09:23:52 *********** Evaluation PSpice (Nov 1999) **************
+
+ * W:\TCO\pract_1\Pract1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** VOLTAGE CONTROLLED SWITCHES
+
+
+NAME         X_U2.S1   
+MODEL        X_U2.Smod 
+I LOAD       1.50E-05 
+V LOAD       1.50E+01 
+R LOAD       1.00E+06 
+V CTRL       0.00E+00 
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .06
+

@@ -1,0 +1,23 @@
+* W:\TCO\pract_5\ejer1.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue Mar 13 09:03:34 2018
+
+
+
+** Analysis setup **
+.tran 1n 120n
+.LIB "W:\TCO\pract_5\ejer1.lib"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "ejer1.net"
+.INC "ejer1.als"
+
+
+.probe
+
+
+.END

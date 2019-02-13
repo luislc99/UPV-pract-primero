@@ -1,0 +1,25 @@
+* W:\TCO\pract_7\mult.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Tue May 08 09:29:58 2018
+
+
+
+** Analysis setup **
+.tran 0ns 1u
+.LIB "W:\TCO\pract_7\NAND_1.lib"
+.STMLIB "F_2.stl"
+.STMLIB "mult.stl"
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "mult.net"
+.INC "mult.als"
+
+
+.probe
+
+
+.END

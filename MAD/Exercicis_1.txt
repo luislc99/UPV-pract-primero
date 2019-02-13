@@ -1,0 +1,14 @@
+Problema real-> problema model -> solució model -> solució real
+
+
+Activitats 
+   sesión 5
+	4 a Arbre generador de mínim pes. Kruskal
+	4 b Cambiar a peso 1 les aristes per les que vols que pase el graf, despres per cada aresta restar-li 1 i afegir-li el pes original de les arestes.
+   Sesió 6
+	3 a Algoritme BFS
+	3 b La pregunta és la mateiza que cuantes componentes conexes n'hi ha. Ja que infectant un component de cada subgraf conexe infectem tot el subgraf. 3 Componentes conexes.
+   sesió 7
+	4 a Dijskstra Valencia - Santander 661
+	4 b Aumentar el pes moltíssim per a no pasar per ella
+	4 c Dijskstra Barcelona - Madrid + Madrid - Huelva
